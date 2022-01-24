@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int i = 13;
-    printf("hello %d\n", i);
+    int i = 0;
+    while (i < 10) {
+        printf("hello %d\n", i);
+        i++;
+    }
+    
     return 0;
 }
